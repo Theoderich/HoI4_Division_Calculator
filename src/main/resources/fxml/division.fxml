@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<fx:root xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml" type="Pane">
+    <ImageView fx:id="division_icon_bg"/>
+    <ImageView fx:id="division_icon" layoutX="1" layoutY="10"/>
+</fx:root>

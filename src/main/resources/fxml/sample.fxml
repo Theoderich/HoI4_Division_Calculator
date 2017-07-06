@@ -1,0 +1,55 @@
+<?import de.theo.h4dd.components.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<BorderPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <center>
+        <Pane fx:id="mainPane">
+            <ImageView fx:id="bg"/>
+            <Pane layoutX="0" layoutY="170">
+                <GridPane layoutX="23" layoutY="57" minWidth="85" maxWidth="85">
+
+                </GridPane>
+                <!-- Line Divisions -->
+                <Pane layoutX="115" layoutY="57">
+                    <DivisionColumn/>
+                    <DivisionColumn layoutX="82"/>
+                    <DivisionColumn layoutX="164"/>
+                    <DivisionColumn layoutX="246"/>
+                    <DivisionColumn layoutX="328"/>
+                </Pane>
+
+
+            </Pane>
+            <!-- Stats -->
+            <Pane layoutX="536" layoutY="13">
+                <!-- Base Stats -->
+                <Pane layoutX="10" layoutY="55" minWidth="155">
+                    <Pane layoutX="5">
+                        <Label layoutX="0" layoutY="6" text="Max Speed:">
+                            <textFill>
+                                <Color blue="0.0" red="0.0" green="0.0" opacity="1.0"/>
+                            </textFill>
+                            <font>
+                                <Font name="Times New Roman" size="16"/>
+                            </font>
+                        </Label>
+                        <Label layoutX="83" layoutY="6" text="4.0 km/h" textAlignment="RIGHT" minWidth="80"
+                               alignment="CENTER_RIGHT">
+                            <textFill>
+                                <Color blue="0.0" red="0.0" green="0.0" opacity="1.0"/>
+                            </textFill>
+                            <font>
+                                <Font name="Times New Roman" size="16"/>
+                            </font>
+                        </Label>
+                    </Pane>
+                </Pane>
+            </Pane>
+
+        </Pane>
+    </center>
+</BorderPane>

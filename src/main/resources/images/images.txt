@@ -1,0 +1,7 @@
+combat_header.png
+div_subunit_item_bg.png
+div_unit_item_bg.png
+division_designer_popup_bg.png
+new_regiment_slot.png
+new_regiment_slot_support.png
+unit_infantry_icon.png

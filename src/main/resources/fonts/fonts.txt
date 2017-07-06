@@ -1,0 +1,3 @@
+hoi_16typewriter.dds
+hoi_16typewriter.fnt
+hoi_16typewriter.png
